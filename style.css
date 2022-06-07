@@ -1,0 +1,93 @@
+body{
+    font-family: 'Gentium Plus', serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.orange-color{
+    color: orangered;
+}
+section{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.half-width{
+    width: 50%;
+    
+}
+.half-width img{
+    width: 80%;
+}
+.hiremeBtn{
+        box-shadow: 0px 10px 14px -7px #276873;
+        background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+        background-color:#599bb3;
+        border-radius:8px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:20px;
+        font-weight:bold;
+        padding:13px 32px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #3d768a;
+    }
+    .hiremeBtn:hover {
+        background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+        background-color:#408c99;
+    }
+    .hiremeBtn:active {
+        position:relative;
+        top:1px;
+    }
+    .top-banner{
+        background-image: url(images/top-banner.png);
+        background-repeat: no-repeat;
+    }
+    .space{
+        margin-left: 80px;
+    }
+   .space-right{
+       margin-right: 20px;
+   }
+   .dream{
+       margin-top: 50px;
+       background-image: url(images/dream-bg.png);
+       background-repeat: no-repeat;
+       background-position: right;
+   }
+   .Experiences{
+       text-align: center;
+   }
+   .border{
+       width: 40%;
+       margin-left: 5px;
+       margin-right: 5px;
+       box-shadow: 10px 10px 40px gray;
+       margin: 100px auto;
+       padding: 10px;
+       border-radius: 10px;
+   }
+   .ex-area{
+       background-image: url(images/exp-bg.png);
+       background-repeat: no-repeat;
+       background-position: left;
+
+   }
+   #web-ex2{
+       border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+   }
+   #web-ex1{
+       border-left: 7px solid;
+       border-image: linear-gradient(salmon,tomato);
+       border-image-slice: 1;
+   }
+   footer{
+       text-align: center;
+   }
